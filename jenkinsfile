@@ -2,11 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/Ayotunde-Orintunsin/S3-bucket-with-terraform.git'
-            }
-        }
+        
         stage('Init Terraform') {
             steps{
                 sh 'terraform init'
