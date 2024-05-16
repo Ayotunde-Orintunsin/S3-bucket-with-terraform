@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_jt_bucket" {
-    bucket = "my-jk-teraform-bucket"
+    bucket = "my-jt-bucket-id"
     
     tags = {
       Name = "My bucket"
