@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 
-resource "aws_s3_bucket" "my_jt_bucket" {
+resource "aws_s3_bucket" "my-jt-bucket" {
     bucket = "my-jt-bucket-id"
     
     tags = {
